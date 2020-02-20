@@ -20,12 +20,14 @@ var slides = document.getElementsByClassName("pose");
 var dots = document.getElementsByClassName("dot");
 var playPauseButton = document.getElementById("playPause");
 
-(function() {
+function start() {
   slides[0].style.display = "block";
   dots[0].className += " active";
   playPauseButton.innerHTML = "&#9658;";
   playPauseButton.classList.add("start");
-})();
+}
+
+start();
 
 var slideIndex = 1;
 var slideInterval = setInterval(slideShow, 2000);
@@ -51,8 +53,11 @@ function slideShow() {
 
     slides[slideIndex - 2].style.display = "block";
     dots[slideIndex - 2].className += " active";
+    slideInterval = (slideShow, 2000);
   }
 }
+
+slideShow();
 
 function pauseSlideShow() {
   playing = false;
@@ -62,7 +67,7 @@ function pauseSlideShow() {
 
 function playSlideShow() {
   playing = true;
-  slideInterval = setInterval(slideShow, 2000);
+  slideInterval = (slideShow, 2000);
   playPauseButton.innerHTML = "&#9616;&nbsp;&#9612";
 }
 
@@ -77,7 +82,6 @@ function togglePlay() {
 function showSlides(n) {
   playing = false;
   clearInterval(slideInterval);
-  playPauseButton.className = playPauseButton.className.replace("start", "");
   var i;
   if (n > slides.length) {
     slideIndex = 1;

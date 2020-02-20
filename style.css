@@ -176,13 +176,7 @@ p {
   }
 }
 
-#projects {
-  color: rgb(55, 90, 108);
-  margin-top: 10em;
-}
-
 /*start of image carousel*/
-
 h2 {
   position: relative;
   padding-top: 0.4em;
@@ -198,7 +192,6 @@ h2 {
   position: relative;
   margin: auto;
   background-color: rgba(55, 90, 108, 0.9);
-  z-index: 1;
 }
 
 .pose {
@@ -306,14 +299,14 @@ h2 {
   cursor: pointer;
   height: 0.55em;
   width: 0.55em;
-  margin: 1em;
+  /*margin 1em;*/
   background-color: rgba(255, 0, 154, 0.2);
   display: inline-block;
   border-radius: 50%;
   border: solid;
   border-color: rgb(255, 0, 154);
   border-width: 0.05em;
-  transition: background-color 0.5s;
+  transition: background-color 1.5s;
 }
 
 @media (max-width: 750px) {
@@ -343,6 +336,11 @@ h2 {
   }
 }
 /*end of image carousel*/
+
+#projects {
+  color: rgb(55, 90, 108);
+  margin-top: 10em;
+}
 
 #links1 {
   padding-top: 1.2em;
