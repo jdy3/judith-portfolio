@@ -367,7 +367,7 @@ h2 {
 
 .project {
   background: rgba(55, 90, 108, 0.9);
-  height: 15rem;
+  height: 18rem;
   border: solid;
   border-width: 0.16rem;
   border-color: rgba(55, 90, 108, 0.9);
@@ -377,11 +377,12 @@ h2 {
   /*max-width: 100%;*/
   width: 100%;
   display: block;
-  height: 12rem;
+  height: 14rem;
 }
 
 .project-title {
   text-align: center;
+  font-size: 1.5rem;
   color: rgb(255, 255, 255);
 }
 
