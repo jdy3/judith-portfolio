@@ -1,13 +1,14 @@
 body {
   font-family: "Poiret One", cursive;
-  font-size: 20px;
+  /*font-size: 20px;*/
   font-weight: bold;
   background-color: rgba(195, 230, 248, 0.2);
 }
 
 @media (max-width: 750px) {
   body {
-    font-size: 10px;
+    /*font-size: 10px;*/
+    font-size: 0.5rem;
   }
 }
 
@@ -33,14 +34,14 @@ body {
 
 .navLink {
   display: block;
-  padding-top: 1.5em;
-  padding-right: 1em;
-  margin-bottom: -0.5em;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+  margin-bottom: -0.5rem;
 }
 
 .navLink {
   color: rgb(255, 255, 255);
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .navLink:hover {
@@ -54,17 +55,17 @@ body {
 
 #welcome-section {
   height: 100vh;
-  margin-top: 5em;
-  padding-right: 2em;
-  padding-left: 2em;
+  margin-top: 5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   color: rgb(55, 90, 108);
 }
 
 h1 {
   text-align: center;
-  font-size: 2em;
-  padding-top: 2em;
-  padding-bottom: 0.5em;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .hide {
@@ -74,11 +75,11 @@ h1 {
 #heart {
   position: relative;
   background-color: rgb(255, 0, 154);
-  height: 5em;
-  width: 5em;
+  height: 5rem;
+  width: 5rem;
   border-radius: 3%;
   transform: rotate(135deg);
-  top: 2.5em;
+  top: 2.5rem;
   margin: auto;
   cursor: pointer;
   z-index: 1;
@@ -88,9 +89,9 @@ h1 {
   position: absolute;
   content: "";
   background-color: rgb(255, 0, 154);
-  height: 5em;
-  width: 5em;
-  top: 2.5em;
+  height: 5rem;
+  width: 5rem;
+  top: 2.5rem;
   border-radius: 50%;
 }
 
@@ -98,10 +99,10 @@ h1 {
   position: absolute;
   content: "";
   background-color: rgb(255, 0, 154);
-  height: 5em;
-  width: 5em;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
-  right: 2.5em;
+  right: 2.5rem;
 }
 
 #heart.beat {
@@ -129,7 +130,7 @@ h1 {
   99% {
     transform: scale(10) rotate(135deg);
     opacity: 0;
-    top: 25em;
+    top: 25rem;
   }
   100% {
     transform: scale(0);
@@ -139,25 +140,25 @@ h1 {
 
 #arrow {
   position: relative;
-  top: 0.1em;
+  top: 0.1rem;
   text-align: center;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 #instruct {
   position: relative;
-  margin-top: -3em;
+  margin-top: -3rem;
   text-align: center;
 }
 
 #textP {
-  margin-top: -5em;
+  margin-top: -5rem;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   text-align: justify;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
 }
 
 #textP.reveal {
@@ -179,16 +180,16 @@ p {
 /*start of image carousel*/
 h2 {
   position: relative;
-  padding-top: 0.4em;
-  margin-bottom: 0.4em;
+  padding-top: 0.4rem;
+  margin-bottom: 0.4rem;
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
   color: rgb(255, 0, 154);
 }
 
 #carousel {
-  max-width: 50em;
-  height: 30em;
+  max-width: 50rem;
+  height: 31rem;
   position: relative;
   margin: auto;
   background-color: rgba(55, 90, 108, 0.9);
@@ -220,33 +221,33 @@ h2 {
 
 #buttonContainer {
   position: relative;
-  width: 35em;
+  width: 35rem;
   margin: auto;
-  bottom: 17em;
+  bottom: 17rem;
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 750px) {
   #buttonContainer {
-    bottom: 7em;
+    bottom: 7rem;
   }
 }
 
 .buttons {
   cursor: pointer;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
   color: rgb(255, 0, 154);
   border-radius: 3%;
-  padding: 0.3em 0.6em 0.3em 0.6em;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
   transition: background-color 0.5s;
   user-select: none;
 }
 
 @media (max-width: 750px) {
   .buttons {
-    font-size: 2em;
+    font-size: 2rem;
   }
 }
 
@@ -256,13 +257,13 @@ h2 {
 
 #playPause {
   cursor: pointer;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   border: solid;
   border-radius: 25%;
-  border-width: 0.1em;
-  padding-top: 0.5em;
-  padding-left: 0.1em;
-  padding-right: 0.1em;
+  border-width: 0.1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
   color: rgba(255, 255, 255, 0);
 }
 
@@ -278,41 +279,41 @@ h2 {
 
 @media (max-width: 750px) {
   #playPause {
-    font-size: 1em;
-    padding-top: 1.3em;
+    font-size: 1rem;
+    padding-top: 1.3rem;
   }
 }
 
 #dotContainer {
   position: relative;
   text-align: center;
-  bottom: 10em;
+  bottom: 10rem;
 }
 
 @media (max-width: 750px) {
   #dotContainer {
-    bottom: 6em;
+    bottom: 6rem;
   }
 }
 
 .dot {
   cursor: pointer;
-  height: 0.55em;
-  width: 0.55em;
+  height: 0.55rem;
+  width: 0.55rem;
   /*margin 1em;*/
   background-color: rgba(255, 0, 154, 0.2);
   display: inline-block;
   border-radius: 50%;
   border: solid;
   border-color: rgb(255, 0, 154);
-  border-width: 0.05em;
+  border-width: 0.05rem;
   transition: background-color 1.5s;
 }
 
 @media (max-width: 750px) {
   .dot {
-    height: 0.35em;
-    width: 0.35em;
+    height: 0.35rem;
+    width: 0.35rem;
   }
 }
 
@@ -324,58 +325,59 @@ h2 {
 .captionText {
   position: relative;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
   color: rgb(255, 0, 154);
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
 }
 
 @media (max-width: 750px) {
   .captionText {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 }
 /*end of image carousel*/
 
 #projects {
   color: rgb(55, 90, 108);
-  margin-top: 10em;
+  margin-top: 10rem;
 }
 
 #links1 {
-  padding-top: 1.2em;
+  padding-top: 1.2rem;
   display: grid;
   grid-template-columns: repeat(3, 32%);
-  grid-gap: 1.2em;
+  grid-gap: 1.2rem;
   justify-content: space-between;
 }
 
 #links2 {
-  padding-top: 1.2em;
-  padding-bottom: 10em;
+  padding-top: 1.2rem;
+  padding-bottom: 10rem;
   display: grid;
   grid-template-columns: 15% 32% 32% 15%;
-  grid-gap: 1.2em;
+  grid-gap: 1.2rem;
   justify-content: space-between;
 }
 
 .blank {
   background: rgba(195, 230, 248, 0);
-  height: 15em;
+  height: 15rem;
 }
 
 .project {
   background: rgba(55, 90, 108, 0.9);
-  height: 15em;
+  height: 15rem;
   border: solid;
-  border-width: 0.16em;
+  border-width: 0.16rem;
   border-color: rgba(55, 90, 108, 0.9);
 }
 
 .project-pic {
-  max-width: 100%;
+  /*max-width: 100%;*/
+  width: 100%;
   display: block;
-  height: 12em;
+  height: 12rem;
 }
 
 .project-title {
@@ -396,23 +398,23 @@ h2 {
 }
 
 #conH {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   color: rgb(255, 255, 255);
-  padding-top: 0.5em;
-  padding-left: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #buttons {
   display: flex;
   justify-content: space-around;
-  padding: 1em 8em 2em 3em;
+  padding: 1rem 8rem 2rem 3rem;
 }
 
 .conBtn {
-  width: 5em;
+  width: 5rem;
   border: solid;
-  border-width: 0.13em;
+  border-width: 0.13rem;
   border-color: rgb(255, 0, 154);
 }
 
