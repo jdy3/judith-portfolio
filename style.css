@@ -331,7 +331,6 @@ h2 {
 /*end of image carousel*/
 
 #projects {
-  width: 113vw;
   color: rgb(55, 90, 108);
   margin-top: 10rem;
 }
@@ -387,7 +386,6 @@ h2 {
 }
 
 #contact {
-  width: 113vw;
   background-color: rgba(55, 90, 108, 0.9);
 }
 
