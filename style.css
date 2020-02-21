@@ -1,15 +1,7 @@
 body {
   font-family: "Poiret One", cursive;
-  /*font-size: 20px;*/
   font-weight: bold;
   background-color: rgba(195, 230, 248, 0.2);
-}
-
-@media (max-width: 750px) {
-  body {
-    /*font-size: 10px;*/
-    font-size: 0.5rem;
-  }
 }
 
 * {
@@ -34,14 +26,14 @@ body {
 
 .navLink {
   display: block;
-  padding-top: 1.5rem;
-  padding-right: 1rem;
+  padding-top: 2.5rem;
+  padding-right: 1.2rem;
   margin-bottom: -0.5rem;
 }
 
 .navLink {
   color: rgb(255, 255, 255);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .navLink:hover {
@@ -54,7 +46,7 @@ body {
 }
 
 #welcome-section {
-  height: 100vh;
+  height: 120vh;
   margin-top: 5rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -63,9 +55,9 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 0.5rem;
+  font-size: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 
 .hide {
@@ -75,8 +67,8 @@ h1 {
 #heart {
   position: relative;
   background-color: rgb(255, 0, 154);
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 3%;
   transform: rotate(135deg);
   top: 2.5rem;
@@ -89,8 +81,8 @@ h1 {
   position: absolute;
   content: "";
   background-color: rgb(255, 0, 154);
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   top: 2.5rem;
   border-radius: 50%;
 }
@@ -99,8 +91,8 @@ h1 {
   position: absolute;
   content: "";
   background-color: rgb(255, 0, 154);
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
   right: 2.5rem;
 }
@@ -140,14 +132,14 @@ h1 {
 
 #arrow {
   position: relative;
-  top: 0.1rem;
+  top: 0.5rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #instruct {
   position: relative;
-  margin-top: -3rem;
+  margin-top: -4rem;
   text-align: center;
 }
 
@@ -156,7 +148,7 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-align: justify;
   padding-bottom: 0.5rem;
 }
@@ -181,15 +173,15 @@ p {
 h2 {
   position: relative;
   padding-top: 0.4rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.7rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   color: rgb(255, 0, 154);
 }
 
 #carousel {
-  max-width: 50rem;
-  height: 31rem;
+  width: 70rem;
+  height: 45rem;
   position: relative;
   margin: auto;
   background-color: rgba(55, 90, 108, 0.9);
@@ -221,9 +213,9 @@ h2 {
 
 #buttonContainer {
   position: relative;
-  width: 35rem;
+  width: 70%;
   margin: auto;
-  bottom: 17rem;
+  bottom: 22rem;
   display: flex;
   justify-content: space-between;
 }
@@ -236,7 +228,7 @@ h2 {
 
 .buttons {
   cursor: pointer;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   color: rgb(255, 0, 154);
   border-radius: 3%;
@@ -257,7 +249,7 @@ h2 {
 
 #playPause {
   cursor: pointer;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   border: solid;
   border-radius: 25%;
   border-width: 0.1rem;
@@ -287,7 +279,7 @@ h2 {
 #dotContainer {
   position: relative;
   text-align: center;
-  bottom: 10rem;
+  bottom: 11rem;
 }
 
 @media (max-width: 750px) {
@@ -298,9 +290,9 @@ h2 {
 
 .dot {
   cursor: pointer;
-  height: 0.55rem;
-  width: 0.55rem;
-  /*margin 1em;*/
+  height: 0.75rem;
+  width: 0.75rem;
+  margin: 0.2rem;
   background-color: rgba(255, 0, 154, 0.2);
   display: inline-block;
   border-radius: 50%;
@@ -325,10 +317,10 @@ h2 {
 .captionText {
   position: relative;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: bold;
   color: rgb(255, 0, 154);
-  padding-top: 0.5rem;
+  padding-top: 1.6rem;
 }
 
 @media (max-width: 750px) {
@@ -339,6 +331,7 @@ h2 {
 /*end of image carousel*/
 
 #projects {
+  width: 113vw;
   color: rgb(55, 90, 108);
   margin-top: 10rem;
 }
@@ -367,22 +360,21 @@ h2 {
 
 .project {
   background: rgba(55, 90, 108, 0.9);
-  height: 18rem;
+  height: 25rem;
   border: solid;
   border-width: 0.16rem;
   border-color: rgba(55, 90, 108, 0.9);
 }
 
 .project-pic {
-  /*max-width: 100%;*/
   width: 100%;
   display: block;
-  height: 14rem;
+  height: 20rem;
 }
 
 .project-title {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
 }
 
@@ -395,11 +387,12 @@ h2 {
 }
 
 #contact {
+  width: 113vw;
   background-color: rgba(55, 90, 108, 0.9);
 }
 
 #conH {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: rgb(255, 255, 255);
   padding-top: 0.5rem;
   padding-left: 0.5rem;
