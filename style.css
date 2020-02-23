@@ -46,7 +46,7 @@ body {
 }
 
 #welcome-section {
-  height: 120vh;
+  height: 100vh;
   margin-top: 5rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -169,7 +169,26 @@ p {
   }
 }
 
+@media (max-width: 1080px) {
+  #welcome-section {
+    margin-top: 25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #welcome-section {
+    margin-top: 15rem;
+  }
+}
+
 /*start of image carousel*/
+#carousel {
+  width: 70%;
+  height: 50rem;
+  margin: auto;
+  background-color: rgba(55, 90, 108, 0.9);
+}
+
 h2 {
   position: relative;
   padding-top: 0.4rem;
@@ -177,14 +196,6 @@ h2 {
   text-align: center;
   font-size: 3rem;
   color: rgb(255, 0, 154);
-}
-
-#carousel {
-  width: 70rem;
-  height: 45rem;
-  position: relative;
-  margin: auto;
-  background-color: rgba(55, 90, 108, 0.9);
 }
 
 .pose {
@@ -209,6 +220,7 @@ h2 {
   display: block;
   margin: auto;
   width: 70%;
+  height: 70%;
 }
 
 #buttonContainer {
@@ -220,12 +232,6 @@ h2 {
   justify-content: space-between;
 }
 
-@media (max-width: 750px) {
-  #buttonContainer {
-    bottom: 7rem;
-  }
-}
-
 .buttons {
   cursor: pointer;
   font-size: 4rem;
@@ -235,12 +241,6 @@ h2 {
   padding: 0.3rem 0.6rem 0.3rem 0.6rem;
   transition: background-color 0.5s;
   user-select: none;
-}
-
-@media (max-width: 750px) {
-  .buttons {
-    font-size: 2rem;
-  }
 }
 
 .buttons:hover {
@@ -269,23 +269,10 @@ h2 {
   background-color: rgba(255, 0, 154, 0.15);
 }
 
-@media (max-width: 750px) {
-  #playPause {
-    font-size: 1rem;
-    padding-top: 1.3rem;
-  }
-}
-
 #dotContainer {
   position: relative;
   text-align: center;
-  bottom: 11rem;
-}
-
-@media (max-width: 750px) {
-  #dotContainer {
-    bottom: 6rem;
-  }
+  bottom: 12rem;
 }
 
 .dot {
@@ -302,13 +289,6 @@ h2 {
   transition: background-color 1.5s;
 }
 
-@media (max-width: 750px) {
-  .dot {
-    height: 0.35rem;
-    width: 0.35rem;
-  }
-}
-
 .active,
 .dot:hover {
   background-color: rgba(255, 0, 154, 1);
@@ -323,11 +303,6 @@ h2 {
   padding-top: 1.6rem;
 }
 
-@media (max-width: 750px) {
-  .captionText {
-    font-size: 0.65rem;
-  }
-}
 /*end of image carousel*/
 
 #projects {
